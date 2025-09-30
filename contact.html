@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact & Feedback - Basotho Cultural Heritage</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+
+<nav>
+    <ul class="nav-menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="clothing.html">CLOTHING</a></li>
+        <li><a href="music.html">MUSIC</a></li>
+        <li><a href="crafts.html">CRAFTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+</nav>
+
+<h1>Contact & Feedback</h1>
+
+<form class="contact-form" action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+    <label for="topic">Topic of Interest:</label>
+    <select id="topic" name="topic" required>
+        <option value="">Select a topic</option>
+        <option value="clothing">Traditional Clothing</option>
+        <option value="music">Music & Dance</option>
+        <option value="crafts">Crafts & Art</option>
+        <option value="general">General Inquiry</option>
+    </select>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+    <button type="submit">Submit</button>
+</form>
+
+<footer>
+    &copy; 2025 Basotho Cultural Heritage. All rights reserved.
+</footer>
+
+</body>
+</html>
